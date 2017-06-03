@@ -1,1 +1,43 @@
-main.css
+body {
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container{
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+}
+
+nav ul li a{
+	text-decoration: none; 
+}
+
+a:hover{
+	 color: #FF00BF;
+}
+
+.menu.flex-container{
+	justify-content: flex-end;
+	margin-right: 22px;
+}
+
+.menu{
+	background-color: white;
+	position: fixed;/*Da posicion fija al menu*/
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.vid{
+	width: 100%;
+}
